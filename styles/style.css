@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap");
+
+body {
+  font-family: "Tangerine", cursive;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background: pink;
+}
+
+h1 {
+  font-family: tangerine;
+  font-size: 96px;
+}
+.container {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
