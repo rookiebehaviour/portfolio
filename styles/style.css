@@ -5,6 +5,7 @@
   --default-font-family: Georgia, "Times New Roman", Times, serif;
   --primary-color: rgba(39, 33, 66, 0.7);
   --secondary-color: #ffc0cb;
+  --context-background-color: rgba(255, 255, 255, 0.7);
 }
 
 body {
@@ -18,6 +19,10 @@ h1 {
   color: #fff;
   font-family: tangerine;
   font-size: 96px;
+}
+
+p {
+  font-size: 18px;
 }
 
 .container {
@@ -42,6 +47,12 @@ h1 {
   padding: 160px 20px;
 }
 
+@media (max-width: 600px) {
+  .hero {
+    padding: 80px 10px;
+  }
+}
+
 .hero h2 {
   color: var(--secondary-color);
 }
@@ -49,4 +60,22 @@ h1 {
 .btn:hover {
   background: var(--secondary-color);
   color: #000;
+}
+
+.project-images {
+  max-width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+.featured-projects {
+  background: var(--context-background-color);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+}
+
+.featured-projects h2 {
+  margin-top: 10px;
 }
