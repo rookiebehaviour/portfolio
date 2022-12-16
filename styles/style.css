@@ -119,3 +119,22 @@ a:hover {
 p i {
   color: var(--secondary-color);
 }
+
+/* Contact Page */
+
+.contact {
+  margin-top: 140px;
+  padding: 30px;
+}
+
+.contact h3 {
+  color: #fff;
+}
+
+.contact a {
+  color: #000;
+}
+
+.contact a:hover {
+  color: var(--secondary-color);
+}
