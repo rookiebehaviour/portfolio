@@ -31,16 +31,6 @@ p {
   margin: 0 auto;
 }
 
-.fa-brands {
-  font-size: 26px;
-  line-height: 38px;
-  margin: 0 10px;
-}
-
-.homepage-connect {
-  margin-top: 20px;
-}
-
 .hero {
   text-align: center;
   color: #fff;
@@ -70,7 +60,8 @@ p {
 }
 
 .featured-projects,
-.about-section {
+.about-section,
+.projects-section {
   background: var(--context-background-color);
   border: 3px solid #fff;
   border-radius: 10px;
@@ -115,4 +106,11 @@ a:hover {
   text-align: right;
   margin-top: 15px;
   margin-right: 10px;
+}
+
+/* Projects Page */
+
+.projects-section {
+  display: flex;
+  flex-direction: row;
 }
