@@ -3,10 +3,12 @@
 body {
   font-family: "Tangerine", cursive;
   font-family: Georgia, "Times New Roman", Times, serif;
-  background: pink;
+  background: rgba(39, 33, 66, 0.7);
+  color: black;
 }
 
 h1 {
+  color: white;
   font-family: tangerine;
   font-size: 96px;
 }
@@ -25,4 +27,18 @@ h1 {
 
 .homepage-connect {
   margin-top: 20px;
+}
+
+.hero {
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+}
+
+.hero h2 {
+  color: #ffc0cb;
+}
+.btn:hover {
+  background: #ffc0cb;
+  color: black;
 }
