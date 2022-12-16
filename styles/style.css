@@ -110,7 +110,12 @@ a:hover {
 
 /* Projects Page */
 
-.projects-section {
-  display: flex;
-  flex-direction: row;
+.technology-icons {
+  color: var(--secondary-color);
+  font-size: 28px;
+  margin: 0 auto;
+}
+
+p i {
+  color: var(--secondary-color);
 }
