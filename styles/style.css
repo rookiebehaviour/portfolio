@@ -15,6 +15,31 @@ body {
   color: #000;
 }
 
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  margin: 0 10px 0 10px;
+  text-decoration: overline;
+}
+
+nav li.active a {
+  color: var(--secondary-color);
+}
+
+nav li.active a:hover {
+  color: var(--secondary-color);
+}
+
 h1 {
   color: #fff;
   font-family: tangerine;
@@ -23,6 +48,15 @@ h1 {
 
 p {
   font-size: 18px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--secondary-color);
 }
 
 .container {
@@ -77,10 +111,6 @@ p {
   color: #000;
 }
 
-a:hover {
-  color: var(--secondary-color);
-}
-
 .featured-projects h2 {
   color: #fff;
   margin-top: 10px;
@@ -123,7 +153,6 @@ p i {
 /* Contact Page */
 
 .contact {
-  margin-top: 140px;
   padding: 30px;
 }
 
@@ -133,8 +162,4 @@ p i {
 
 .contact a {
   color: #000;
-}
-
-.contact a:hover {
-  color: var(--secondary-color);
 }
