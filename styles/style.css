@@ -17,6 +17,7 @@ body {
 
 nav {
   padding: 20px 0;
+  margin: 10px 0;
 }
 
 nav ul {
@@ -59,6 +60,20 @@ a:hover {
   color: var(--secondary-color);
 }
 
+footer {
+  background: var(--context-background-color);
+  border: 3px solid #fff;
+  border-radius: 10px;
+  margin: 60px auto;
+  padding: 40px;
+}
+
+footer .social-links a {
+  color: var(--secondary-color);
+  font-size: 40px;
+  margin: 0 10px;
+}
+
 .container {
   display: block;
   text-align: center;
@@ -89,7 +104,7 @@ a:hover {
 .project-images {
   max-width: 100%;
   padding: 10px;
-  margin-bottom: 10px;
+  margin: 10px auto;
   border-radius: 20px;
 }
 
@@ -103,20 +118,14 @@ a:hover {
   margin: 20px auto;
 }
 
-.about-section {
-  text-align: left;
-  color: #fff;
-}
-.about-section a {
-  color: #000;
-}
-
 .featured-projects h2 {
   color: #fff;
   margin-top: 10px;
 }
 
-/* About Page */
+.email-link {
+  font-size: 18px;
+}
 
 .greeting {
   text-align: left;
@@ -138,13 +147,22 @@ a:hover {
   margin-right: 10px;
 }
 
-/* Projects Page */
-
 .technology-icons {
   color: var(--secondary-color);
   font-size: 28px;
   margin: 0 auto;
 }
+
+/* About Page */
+
+.about-section {
+  text-align: left;
+}
+.about-section a {
+  color: #fff;
+}
+
+/* Projects Page */
 
 p i {
   color: var(--secondary-color);
@@ -153,13 +171,5 @@ p i {
 /* Contact Page */
 
 .contact {
-  padding: 30px;
-}
-
-.contact h3 {
-  color: #fff;
-}
-
-.contact a {
-  color: #000;
+  padding: 10px;
 }
