@@ -61,6 +61,8 @@ a:hover {
 }
 
 footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   background: var(--context-background-color);
   border: 3px solid #fff;
   border-radius: 10px;
@@ -176,4 +178,28 @@ p i {
 
 .contact {
   padding: 10px;
+}
+
+@media (max-width: 800px) {
+  footer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .container {
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .featured-projects {
+    margin: 0;
+  }
+
+  footer {
+    margin: 0;
+  }
+
+  nav {
+    margin: 0;
+  }
 }
